@@ -13,8 +13,8 @@ public class MapGeneration : MonoBehaviour
     int[,] HouseSizes = new int[,] { { 4, 3 }, { 6, 3 }, { 8, 3 }, { 10, 3 } };
 
     void Start()
-    { 
-
+    {
+        print(HouseSizes[1, 2]);
     }
 
     void Update()
